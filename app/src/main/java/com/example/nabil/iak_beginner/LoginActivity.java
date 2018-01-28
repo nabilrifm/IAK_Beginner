@@ -50,7 +50,7 @@ public class LoginActivity extends AppCompatActivity {
                             et_password.setError("is mane boleh kosong");
                         }
                         if (username.equals(USERNAME)&& (password.equals(PASSWORD))){
-                           Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                           Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                            intent.putExtra(MainActivity.USERNAME, username);
                            intent.putExtra(MainActivity.PASSWORD, password);
                            finish();
